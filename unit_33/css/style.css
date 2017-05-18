@@ -11,6 +11,7 @@ body {
 }
 
 header {
+	background-image: url("img/gradiantbg-01.svg");
 	background-color: #fff;
 	padding: 20px;
 }
