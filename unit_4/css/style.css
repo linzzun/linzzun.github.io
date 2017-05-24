@@ -19,6 +19,20 @@ header.intro {
   	height: 300px;
 }
 
+#ecosystem {
+	float: left;
+    margin: 0 0 10px 10px;
+    max-width: 25%;
+  	height: auto
+}
+
+#dcsmarketing {
+	float: right;
+    margin: 0 0 10px 10px;
+    max-width: 25%;
+  	height: auto
+}
+
 
 .button {
    	border: none;
@@ -81,20 +95,6 @@ header.intro {
 .button4:hover {
     background-color: #fff;
     color: black;
-}
-
-#ecosystem {
-	float: left;
-    margin: 0 0 10px 10px;
-    max-width: 25%;
-  	height: auto
-}
-
-#dcsmarketing {
-	float: right;
-    margin: 0 0 10px 10px;
-    max-width: 25%;
-  	height: au
 }
 
 h1 {
