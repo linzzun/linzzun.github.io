@@ -1,0 +1,57 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	text-align: center;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	background: url("http://i.imgur.com/q0FaaAk.jpg");
+  	background-size: cover;
+	color: #555555;
+	line-height: 1.3;
+}
+
+header {
+	padding: 20px;
+}
+
+h1 {
+	color: #000;
+}
+
+a {
+	color: #00b5e2;
+	text-decoration: none;
+}
+
+nav a {
+	color: #000;
+	font-style: italic;
+	margin-right: 10px;
+}
+
+img {
+	width: 100%;
+}
+
+main {
+	padding: 20px;
+}
+
+ul, ol {
+	padding-left: 20px;
+}
+
+footer {
+	background-color: #cccccc;
+	padding: 20px;
+	text-align: center;
+}
+
+h3, h4, h5 {
+	margin: 20px 0;
+}
+
+
