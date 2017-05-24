@@ -4,7 +4,7 @@
 }
 
 body {
-	text-align: center;
+	text-align: left;
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	background: url("../img/wtc.jpg");
@@ -14,12 +14,12 @@ body {
 }
 
 header {
-	padding: 100px;
+	padding: 200px;
 }
 
 #ecosystem {
-width: 50%;
-height: 50%;
+width: 15%;
+height: 15%;
 }
 
 #dcsmarketing {
@@ -51,8 +51,8 @@ main {
 }
 
 ul, ol {
-	padding-left: 100px;
-}
+	/*padding-left: 20px;
+}*/
 
 footer {
 	background-color: #cccccc;
