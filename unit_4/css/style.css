@@ -43,7 +43,7 @@ header {
     border: 1px solid #fff;
 }
 
-.button1:hover {
+.button:hover {
     background-color: #fff;
     color: black;
 }
