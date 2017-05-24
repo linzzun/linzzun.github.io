@@ -31,7 +31,7 @@ header {
     text-decoration: none;
     display: inline-block;
     font-size: 14px;
-    float: left;
+    /*float: left;*/
     -webkit-transition-duration: 0.3s; /* Safari */
     transition-duration: 0.3s;
     cursor: pointer;
