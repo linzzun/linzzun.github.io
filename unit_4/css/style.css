@@ -31,9 +31,9 @@ header {
     text-decoration: none;
     display: inline-block;
     font-size: 14px;
-    margin: 4px 2px;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
+    float: left;
+    -webkit-transition-duration: 0.3s; /* Safari */
+    transition-duration: 0.3s;
     cursor: pointer;
 }
 
