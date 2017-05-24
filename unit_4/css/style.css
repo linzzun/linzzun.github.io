@@ -43,7 +43,7 @@ header.intro {
     text-decoration: none;
   	font-size: 14px;
     display: inline-block;
-    margin: 25px;
+    margin: 16px;
     -webkit-transition-duration: 0.3s; /* Safari */
     transition-duration: 0.3s;
     cursor: pointer;
