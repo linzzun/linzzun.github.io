@@ -26,11 +26,11 @@ header {
    	border: none;
     border-radius: 8px;
     color: white;
-    padding: 16px 32px;
+    padding: 8px 16px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 14px;
     margin: 4px 2px;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
@@ -39,7 +39,7 @@ header {
 
 .button1 {
     background-color: transparent; 
-    color: black; 
+    color: white; 
     border: 1px solid #fff;
 }
 
