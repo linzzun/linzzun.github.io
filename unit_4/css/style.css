@@ -7,7 +7,7 @@ body {
 	text-align: center;
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 16px;
-	background: url("img/wtc.jpg");
+	background: url("../img/wtc.jpg");
   	background-size: cover;
 	color: #555555;
 	line-height: 1.3;
