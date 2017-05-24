@@ -41,7 +41,7 @@ header {
     background-color: transparent; 
     color: white; 
     border: 1px solid #fff;
-    width: 10%;
+    width: 150px;
 }
 
 .button:hover {
@@ -53,7 +53,7 @@ header {
     background-color: transparent; 
     color: white; 
     border: 1px solid #fff;
-    width: 10%;
+    width: 150px;
 }
 
 .button2:hover {
@@ -65,7 +65,7 @@ header {
     background-color: transparent; 
     color: white; 
     border: 1px solid #fff;
-    width: 10%;
+    width: 150px;
 }
 
 .button3:hover {
@@ -77,7 +77,7 @@ header {
     background-color: transparent; 
     color: white; 
     border: 1px solid #fff;
-    width: 10%;
+    width: 150px;
 }
 
 .button4:hover {
