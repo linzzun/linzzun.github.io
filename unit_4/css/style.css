@@ -31,8 +31,18 @@ h1 {
 	color: #000;
 }
 
+h2, h3, h4, h5 {
+	margin: 20px 0;
+	color: #000;
+}
+
 a {
 	color: #00b5e2;
+	text-decoration: none;
+}
+
+p {
+	color: #000;
 	text-decoration: none;
 }
 
@@ -59,10 +69,6 @@ footer {
 	background-color: #cccccc;
 	padding: 20px;
 	text-align: center;
-}
-
-h3, h4, h5 {
-	margin: 20px 0;
 }
 
 
