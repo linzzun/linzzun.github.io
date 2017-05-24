@@ -10,17 +10,18 @@ body {
 	background: url("../img/wtc.jpg");
   	background-size: cover;
 	color: #555555;
-	line-height: 1.3;
+	line-height: 1.2;
 }
 
-header {
+/*header {
 	padding: 20px;
 }
 
-/*header.intro {
+header.intro {
 	max-width: 100%;
   	height: auto;
 }*/
+
 
 .button {
    	border: none;
@@ -87,14 +88,14 @@ header {
 
 #ecosystem {
 	float: left;
-    margin: 0 0 10px 10px;
+    margin: 0 0 200px 10px;
     max-width: 25%;
   	height: auto
 }
 
 #dcsmarketing {
 	float: right;
-    margin: 0 0 10px 10px;
+    margin: 0 0 200px 10px;
     max-width: 25%;
   	height: au
 }
@@ -104,7 +105,7 @@ h1 {
 }
 
 h2, h3, h4, h5 {
-	margin: 20px 0;
+	margin: 10px 0;
 	color: #000;
 }
 
@@ -118,18 +119,14 @@ p {
 	text-decoration: none;
 }
 
-nav a {
-	color: #000;
-	font-style: italic;
-	margin-right: 10px;
-}
+
 
 /*img {
 	width: 100%;
 }*/
 
 main {
-	padding: 20px;
+	color: #000;
 }
 
 ul, ol {
