@@ -17,19 +17,23 @@ header {
 	padding: 20px;
 }
 
-header.intro {
+/*header.intro {
 	max-width: 100%;
   	height: auto;
-}
+}*/
 
 #ecosystem {
-	float: right;
+	float: left;
     margin: 0 0 10px 10px;
+    max-width: 100%;
+  	height: auto
 }
 
 #dcsmarketing {
 	float: right;
     margin: 0 0 10px 10px;
+    max-width: 100%;
+  	height: au
 }
 
 h1 {
@@ -72,7 +76,7 @@ ul, ol {
     padding: 0;
 
 footer {
-	background-color: #cccccc;
+	color: #fff;
 	padding: 20px;
 	text-align: center;
 }
