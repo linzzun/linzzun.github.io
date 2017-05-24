@@ -97,6 +97,10 @@ header.intro {
     color: black;
 }
 
+main {
+	color: #000;
+}
+
 h1 {
 	color: #000;
 }
@@ -116,24 +120,14 @@ p {
 	text-decoration: none;
 }
 
-
-
-/*img {
-	width: 100%;
-}*/
-
-main {
-	color: #000;
-}
-
 ul, ol {
 	color: #000;
 	list-style-type: none;
     margin: 0;
     padding: 0;
+}
 
 footer {
 	color: #fff;
-	padding: 20px;
 	text-align: center;
 }
