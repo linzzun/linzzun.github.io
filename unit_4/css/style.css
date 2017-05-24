@@ -50,34 +50,34 @@ header {
 
 .button2 {
     background-color: transparent; 
-    color: black; 
-    border: 1px solid #008CBA;
+    color: white; 
+    border: 1px solid #fff;
 }
 
 .button2:hover {
-    background-color: #008CBA;
+    background-color: #fff;
     color: black;
 }
 
 .button3 {
     background-color: transparent; 
-    color: black; 
-    border: 1px solid #f44336;
+    color: white; 
+    border: 1px solid #fff;
 }
 
 .button3:hover {
-    background-color: #f44336;
+    background-color: #fff;
     color: black;
 }
 
 .button4 {
-    background-color: transparent;
-    color: black;
-    border: 1px solid #e7e7e7;
+    background-color: transparent; 
+    color: white; 
+    border: 1px solid #fff;
 }
 
 .button4:hover {
-    background-color: #f44336;
+    background-color: #fff;
     color: black;
 }
 
