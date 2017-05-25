@@ -37,8 +37,10 @@ div.center {
 }
 
 hr { 
+  	margin: auto;
   	border-style: solid;
     border-width: 1px;
+   	width: 250px;
    	color: #ffef12;
 }
 
