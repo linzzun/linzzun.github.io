@@ -4,7 +4,6 @@
 }
 
 body {
-	text-align: center;
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	background: url("../img/wtc.jpg");
@@ -16,7 +15,7 @@ body {
 
 header.intro {
 	max-width: 100%;
-  	height: 100px;
+  	height: 50px;
 }
 
 #ecosystem {
@@ -111,6 +110,7 @@ hr {
 
 main {
 	color: #000;
+	text-align: center;
 }
 
 h1 {
