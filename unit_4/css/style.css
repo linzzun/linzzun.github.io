@@ -32,6 +32,15 @@ header.intro {
   	height: auto
 }
 
+#box1 {
+	float: right;
+    margin: 0 0 10px 10px;
+    max-width: 25%;
+  	height: auto
+  	background-color: #fff;
+}
+
+
 div.center {
 	text-align: center;
 	width: 500px;
