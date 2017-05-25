@@ -4,7 +4,7 @@
 }
 
 body {
-	text-align: left;
+	text-align: center;
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	background: url("../img/wtc.jpg");
@@ -40,7 +40,6 @@ div.center {
 hr { 
     margin-top: 3em;
     margin-bottom: 3em;
-    margin-left: 3em;
     border-style: solid;
     border-width: 1px;
     width: 250px;
