@@ -129,7 +129,8 @@ ul, ol {
 
 footer {
 	background-color: white;
-	margin: 30px;
+	color: white;
+	margin-top: 30px;
 	font-size: 12px;
 	text-align: center;
 	max-width: 100%;
