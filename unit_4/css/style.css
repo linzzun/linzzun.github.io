@@ -38,8 +38,8 @@ div.center {
 
 hr { 
   	margin: auto;
-  	margin-top: 0.5em;
-    margin-bottom: 0.5em;
+  	margin-top: 1.2em;
+    margin-bottom: 1.2em;
   	border-style: solid;
     border-width: 1px;
    	width: 250px;
@@ -64,7 +64,7 @@ hr {
 .button1 {
     background-color: transparent; 
     color: white; 
-    border: 1px solid #fff;
+    border: 1px solid #000;
     width: 150px;
 }
 
@@ -76,7 +76,7 @@ hr {
 .button2 {
     background-color: transparent; 
     color: white; 
-    border: 1px solid #fff;
+    border: 1px solid #000;
     width: 150px;
 }
 
@@ -88,7 +88,7 @@ hr {
 .button3 {
     background-color: transparent; 
     color: white; 
-    border: 1px solid #fff;
+    border: 1px solid #000;
     width: 150px;
 }
 
@@ -100,7 +100,7 @@ hr {
 .button4 {
     background-color: transparent; 
     color: white; 
-    border: 1px solid #fff;
+    border: 1px solid #000;
     width: 150px;
 }
 
