@@ -39,8 +39,7 @@ div.center {
 hr { 
   	border-style: solid;
     border-width: 1px;
-    width: 250px;
-    color: #ffef12;
+   	color: #ffef12;
 }
 
 .button {
