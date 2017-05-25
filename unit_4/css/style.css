@@ -37,6 +37,8 @@ header.intro {
 div.center {
 	font-family: 'Roboto', serif;
 	font-weight: 900;
+	font-size: 16px;
+	line-height: 1.5;
 	text-align: center;
 	width: 25%;
 }
@@ -116,6 +118,7 @@ hr {
 
 main {
 	color: #000;
+	display: inline-block;
 }
 
 h1 {
