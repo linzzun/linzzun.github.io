@@ -1,167 +1,113 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
 
-* {
-	padding: 0;
-	margin: 0;
-}
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
 
 body {
-	font-family: Helvetica, Arial, sans-serif;
-	font-size: 12px;
-	background: #f1f9fe;
-  background-size: cover
-	color: #000;
-	line-height: 1.2;
+  background-color: #000;
+  border: 1px black solid;
+  padding: 20px 80px 20px 80px;
+
 }
 
+#intro {
+  background-color: #ffed74;
+  border: 1px black solid;
+  padding: 20px;
 
-header.intro {
-	max-width: 100%;
-  height: 100px;
-  background: #2B2B2B;
 }
 
 #ecosystem {
-	float: left;
-    margin: 0 0 10px 10px;
-    max-width: 200px;
-  	height: auto
+  float: left;
+  margin: 0 0 10px 10px;
+  max-width: 200px;
+  height: auto
 }
 
 #dcsmarketing {
-	float: right;
-    margin: 0 0 10px 10px;
-    max-width: 200px;
-  	height: auto
+  float: right;
+  margin: 0 0 10px 10px;
+  max-width: 200px;
+  height: auto
 }
 
-#highlight {
-	font-family: 'Roboto', serif;
-	font-weight: 900;
-	font-size: 16px;
-	line-height: 2.4em;
-	text-align: center;
-	max-width: 600px;
+.navmain { /*button classes here*/
+  background-color: #e8c66a;
+  border: 1px black solid;
+  padding: 20px;
+}
+
+#main-content {
+  background-color: #ff0000;
+  border: 1px black solid;
+  padding: 20px;
+
 }
 
 .highlights {
-  font-family: 'Roboto', serif;
-  font-weight: 900;
-  font-size: 16px;
-  line-height: 2.4em;
-  text-align: center;
-  max-width: 1000px;
-  background: #2B2B2B;
+  background-color: #ffe2b8;
+  border: 1px black solid;
+  padding: 20px;
+
+
 }
 
-.button {
-   	border: none;
-    border-radius: 8px;
-    color: white;
-    padding: 8px 16px;
-    text-align: center;
-    text-decoration: none;
-  	font-size: 14px;
-    display: inline-block;
-    margin: 16px;
-    -webkit-transition-duration: 0.3s; /* Safari */
-    transition-duration: 0.3s;
-    cursor: pointer;
+.left-sidebar { /*2nd nav button classes here*/
+  background-color: #e8c66a;
+  border: 1px black solid;
+  padding: 20px;
+
 }
 
-.button1 {
-    background-color: transparent; 
-    color: white; 
-    border: 1px solid #fff;
-    width: 150px;
+.highlight-content {
+  background-color: #ffe2b8;
+  border: 1px black solid;
+  padding: 20px;
+
 }
 
-.button:hover {
-    background-color: #fff;
-    color: black;
+.callout {
+  background-color: #ffe2b8;
+  border: 1px black solid;
+  padding: 20px;
 }
 
-.button2 {
-    background-color: transparent; 
-    color: white; 
-    border: 1px solid #fff;
-    width: 150px;
+.training {
+  background-color: #ffe2b8;
+  border: 1px black solid;
+  padding: 20px;
 }
 
-.button2:hover {
-    background-color: #fff;
-    color: black;
+.leadership {
+  background-color: #ffe2b8;
+  border: 1px black solid;
+  padding: 20px;
 }
 
-.button3 {
-    background-color: transparent; 
-    color: white; 
-    border: 1px solid #fff;
-    width: 150px;
+.displaytext {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 50px;
+  line-height: 1.2em;
+  text-align: left;
+  max-width: 600px;
+
 }
 
-.button3:hover {
-    background-color: #fff;
-    color: black;
+img {
+  margin: 0 0 10px 10px;
+  max-width: 500px;
+  height: auto
 }
 
-.button4 {
-    background-color: transparent; 
-    color: white; 
-    border: 1px solid #fff;
-    width: 150px;
-}
+.list {
+  background-color: #ffe2b8;
+  border: 1px black solid;
+  padding: 20px;
 
-.button4:hover {
-    background-color: #fff;
-    color: black;
-}
-
-main {
-
-	display: inline-block;
-}
-
-section {
-	margin: 10px 26px 10px 25px;
-	padding: 50px;
-}
-
-h1 {
-	color: #000;
-}
-
-h2, h3, h4, h5 {
-	margin: 10px 0;
-	color: #000;
-}
-
-a {
-	color: #fff;
-	text-decoration: none;
-}
-
-p {
-	color: #000;
-	text-decoration: none;
-}
-
-ul, ol {
-	color: #000;
-	list-style-type: none;
-    margin: 0;
-    padding: 0;
 }
 
 footer {
-	background-color: white;
-	font-size: 12px;
-	text-align: center;
-	max-width: 100%;
-  	height: 75px;
-  	padding: 30;
-}
-
-#footerlink {
-	color: #000;
+  background-color: #ff957e;
+  border: 1px black solid;
+  padding: 20px;
 }
