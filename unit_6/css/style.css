@@ -1,0 +1,148 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+/*TRouBLe*/
+
+
+body {
+  background-color: #000;
+  padding: 0px 180px 20px 180px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 150%;
+  background: url("../img/boxbg.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: #000;
+  line-height: 1.2;
+}
+
+#intro {
+  background-color: #000;
+  padding: 20px;
+}
+
+#ecosystem {
+  float: left;
+  margin: 0 0 10px 10px;
+  max-width: 180px;
+  height: auto
+}
+
+#dcsmarketing {
+  float: right;
+  margin: 0 10px 10px 0px;
+  max-width: 180px;
+  height: auto
+}
+
+.navmain { /*button classes here*/
+    padding: 25px 0 0 0;
+    margin-top: 25px;
+}
+
+#main-content { /*removed for column exercise*/
+  background-color: #ff0000;
+  border: 1px black solid;
+  padding: 20px;
+
+}
+
+.highlights {
+  background-color: #ffe2b8;
+  border: 1px black solid;
+  padding: 20px;
+
+
+}
+
+.left-sidebar { /*2nd nav button classes here*/
+  background-color: #e8c66a;
+  border: 1px black solid;
+  padding: 20px;
+
+}
+
+.highlight-content {
+  background-color: #ffe2b8;
+  border: 1px black solid;
+  padding: 20px;
+
+}
+
+.callout {
+  background-color: #ffe2b8;
+  border: 1px black solid;
+  padding: 20px;
+}
+
+.training {
+  background-color: #ffe2b8;
+  border: 1px black solid;
+  padding: 20px;
+}
+
+.leadership {
+  background-color: #ffe2b8;
+  border: 1px black solid;
+  padding: 20px;
+}
+
+.displaytext {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 50px;
+  line-height: 1.2em;
+  text-align: left;
+  max-width: 600px;
+
+}
+
+img {
+  margin: 0 0 10px 10px;
+  max-width: 500px;
+  height: auto
+}
+
+.list { /*removed for column exercise*/
+  background-color: #ffe2b8;
+  border: 1px black solid;
+  padding: 20px;
+
+}
+
+footer {
+  background-color: #ff957e;
+  border: 1px black solid;
+  padding: 20px;
+}
+
+/*begin column exercise*/
+#two-column {
+  background-color: #ff0000;
+  border: 1px black solid;
+  padding: 20px;
+}
+
+#left {
+    background-color: violet;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 46%;
+}
+
+#right {
+    background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 46%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
