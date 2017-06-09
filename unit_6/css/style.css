@@ -1,15 +1,15 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
 /*TRouBLe*/
-
+* { margin:0; padding:0; box-sizing:border-box; }
 
 body {
   background-color: #000;
-  padding: 0px 180px 20px 180px;
   font-family: 'Roboto', sans-serif;
-  font-size: 150%;
+  /* font-size: 150%; */
   background: url("../img/boxbg.jpg");
-  background-size: 100%;
+  background-size: cover;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   color: #000;
   line-height: 1.2;
@@ -47,37 +47,62 @@ body {
 }
 
 .highlights {
-  background-color: #ffe2b8;
-  border: 1px black solid;
-  padding: 20px;
-
-
+  background-color: gray;
+  padding: 4em;
 }
 
 .left-sidebar { /*2nd nav button classes here*/
   background-color: #e8c66a;
   border: 1px black solid;
   padding: 20px;
-
+  width: 33.33%;
+  float: left;
 }
 
 .highlight-content {
   background-color: #ffe2b8;
   border: 1px black solid;
   padding: 20px;
-
+  width: 66.66%;
+  float: left;
 }
 
 .callout {
-  background-color: #ffe2b8;
-  border: 1px black solid;
-  padding: 20px;
+  clear: both;
+  position: relative;
+  z-index: 1;
+  height: 6em;
+  width: 100%;
 }
-
+.centerBox {
+  background-color:#666;
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  z-index:1;
+  padding: 1em 10em 0;
+  text-align: center;
+}
+.sideBox, .sideBox2 {
+  background:blue;
+  width: 3em;
+  height: 8em;
+  position:absolute;
+  left: -1em;
+  top: -1em;
+  z-index: -1;
+}
+.sideBox2 {
+  position:absolute;
+  right:-1em;
+  top:-1em;
+  left: initial;
+}
 .training {
-  background-color: #ffe2b8;
-  border: 1px black solid;
-  padding: 20px;
+  background-color: #fff;
+  padding: 4em 0;
 }
 
 .leadership {
@@ -98,8 +123,11 @@ body {
 
 img {
   margin: 0 0 10px 10px;
-  max-width: 500px;
   height: auto
+}
+.highlight-content img {
+  margin:0;
+  width: 100%;
 }
 
 .list { /*removed for column exercise*/
@@ -117,9 +145,9 @@ footer {
 
 /*begin column exercise*/
 #two-column {
-  background-color: #ff0000;
-  border: 1px black solid;
-  padding: 20px;
+  /* background-color: #ff0000; */
+  /* border: 1px black solid; */
+  /* padding: 20px; */
 }
 
 #left {
@@ -127,17 +155,20 @@ footer {
     border: 1px black solid;
     padding: 20px;
     float: left;
-    width: 46%;
+    width: 50%;
 }
 
 #right {
     background-color: pink;
     border: 1px black solid;
     padding: 20px;
-    float: right;   
-    width: 46%;
+    float: left;
+    width: 50%;
 }
-
+.wrapper {
+  max-width:75em;
+  margin:auto;
+}
 .clearfix:after {
     visibility: hidden;
     display: block;
