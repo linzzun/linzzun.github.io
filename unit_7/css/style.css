@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+/*TRouBLe*/
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+  background-color: #000;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  background: url("../img/boxbg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: #000;
+  line-height: 1.2;
+}
+
+#intro {
+  background-color: #2b2b2b;
+  padding: 10px;
+  width: 100%
+}
+
+#ecosystem {
+  float: left;
+  margin: 0 0 10px 10px;
+  max-width: 180px;
+  height: auto
+}
+
+#dcsmarketing {
+  float: right;
+  margin: 0 10px 10px 0px;
+  max-width: 180px;
+  height: auto
+}
+
+.navmain { 
+  padding: 1.2em;
+  margin-top: 75px;
+  width: 100%
+  clear: both;
+  text-align: center;
+}
+.expando {
+  display: none;
+}
+.expando:target {
+  display: block;
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+a {
+  text-decoration: none;
+  color:#fff;
+}
+
+a.button1,a.navmain {
+  /*float: left;*/
+  font-size: 75%
+}
+
+a.button1 {
+  border:1px solid #d4d4d4;
+  border-radius:10px;
+  color:#fff;
+  margin-right:10px;
+  padding:1em;
+  width: 150px;
+  transition-duration: 0.4s;
+  -webkit-transition-duration: 0.4s; /*safari*/
+  display: inline-block;
+}
+
+a.button1:hover {
+  background-color: rgba(255,255,255,.75);
+  color: black;
+}
+
+
+#highlights {
+  padding: 2em 2em;
+  color: #000;
+  background-color: rgba(67,67,67,.9);
+ 
+}
+
+.callout {
+  clear: both;
+  position: relative;
+  z-index: 1;
+  height: 6em;
+  width: 100%;
+}
+.centerBox {
+  background-color:#666;
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  z-index:1;
+  padding: 1em 10em 0;
+  text-align: center;
+}
+.sideBox, .sideBox2 {
+  background:blue;
+  width: 3em;
+  height: 8em;
+  position:absolute;
+  left: -1em;
+  top: -1em;
+  z-index: -1;
+}
+.sideBox2 {
+  position:absolute;
+  right:-1em;
+  top:-1em;
+  left: initial;
+}
+.training {
+  background-color: #fff;
+  padding: 4em 0;
+}
+
+.leadership {
+  background-color: #ffe2b8;
+  border: 1px black solid;
+  padding: 20px;
+
+}
+
+.leadership img {
+  float: left;
+}
+
+.displaytext {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 50px;
+  line-height: 1.2em;
+  text-align: left;
+  max-width: 600px;
+
+}
+
+
+
+
+footer {
+  background-color: #ff957e;
+  border: 1px black solid;
+  padding: 20px;
+  float: left;
+  width: 100%;
+}
+
+/*begin column exercise*/
+#two-column {
+  /* background-color: #ff0000; */
+  /* border: 1px black solid; */
+  /* padding: 20px; */
+}
+
+#left {
+    background-color: violet;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 50%;
+}
+
+#right {
+    background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 50%;
+}
+.wrapper {
+  max-width:75em;
+  margin:auto;
+
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}

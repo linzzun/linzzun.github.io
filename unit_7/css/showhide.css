@@ -1,0 +1,10 @@
+.expando {
+  display: none;
+}
+.expando:target {
+  display: block;
+}
+ul {
+  list-style: none;
+
+}
