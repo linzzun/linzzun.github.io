@@ -56,9 +56,9 @@
               </ul>    
             </li>
           </ul> -->
-        <div id="target">
-          <h2 id="targetButton">Has superhuman strength and mass</h2>
-          <img src="img/01highlights.png" id="targetImg" alt="This is the feature 1 image">
+        <div class="target">
+          <h2 class="targetButton">Has superhuman strength and mass</h2>
+          <img src="img/01highlights.png" class="targetImg" alt="This is the feature 1 image">
         </div>
         
 
@@ -144,5 +144,11 @@
     <p>Lorem ipsum dolat sumar</p>
     <p>Contact information: <a href="mailto:someone@example.com" id="footerlink">someone@example.com</a>.</p>
   </footer>
+  <script>
+    jQuery(function($){
+      $( '.targetButton' ).click(function(){
+        $('.targetImg;).toggleClass('appear')
+      })
+    ])
 </body>
 </html>
