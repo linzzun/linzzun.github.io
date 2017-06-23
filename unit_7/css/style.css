@@ -201,13 +201,13 @@ footer {
     opacity: 0;
     transition-duration: .5s;
 }
-.targetButton {
+#targetButton {
     background: purple;
     float: left;
     padding: 1em 2em;
 }
 
-.target {
+#target {
     position: relative;
     height: 32em;
 }
