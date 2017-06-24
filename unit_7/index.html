@@ -3,15 +3,16 @@
 <head>
   <title>DCS Americas Marketing and Communications</title>
   <link href="css/style.css" rel="stylesheet" type="text/css">
-  <script type="text/javascript">
-/* <![CDATA[ */
-( function( $ ) {
-   $( 'a[href="#Expando1"]' ).click( function(e) {
-      e.preventDefault();
-   } );
-} )( jQuery );
-/* ]]> */
-</script>
+  <!--<script type="text/javascript">
+window.onload = function() {
+    if(document.readyState === 'complete') {
+        document.getElementById('some_id').onclick = function(e) {
+            e.preventDefault();
+            return false;
+        };
+    }
+};
+</script>-->
 </head><!-- main content -->
 <body>
   <header id="intro">
@@ -30,7 +31,7 @@
         <h1>Highlights</h1>
           
           <ul>
-            <li><a href="#Expando1">Feature 1</a>
+            <li><a href="#Expando1" id="some_id">Feature 1</a>
               <ul class="expando" id="Expando1">
                 <li>Has superhuman strength and mass</li>
                 <li><img src="img/01highlights.png" alt="This is the feature 1 image" width="300"></li>
