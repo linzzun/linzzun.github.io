@@ -5,6 +5,7 @@
       DCS Americas Marketing and Communications
     </title>
     <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   </head><!-- main content -->
   <body>
     <header id="intro">
@@ -20,54 +21,63 @@
     <div class="wrapper">
       <main class="clearfix">
         <section id="highlights">
+
+              <!--<div class="xxx">
+                <h2 id="targetButton">
+                  Has superhuman strength and mass
+                </h2><img class="targetImg" src="img/01highlights.png" alt="This is the feature 1 image" width="300">
+              </div>-->
+
+
+
           <h1>
             Highlights
           </h1>
+
+
+      <div class="leftmenu red">          
           
           <ul>
             <li>
-              <a href="#Expando1">Feature 1</a>
+              <a href="#Expando1" class="rectangle">Feature 1</a>
               <ul class="expando" id="Expando1">
-                <li>Has superhuman strength and mass
-                </li>
-                <li>
-                  <img alt="This is the feature 1 image" src="img/01highlights.png" width="300">
-                </li>
+                <div class="rightcontent">
+                  <ul>
+                    <li>Leaping in bounds</li>
+                    <li><img alt="This is the feature 1 image" src="img/01highlights.png" width="300"></li>
+                  </ul>
+                </div>
+              </ul>
+            </li>
+          </ul>
+          
+          <ul>
+            <li>
+              <a href="#Expando2" class="rectangle">Feature 2</a>
+              <ul class="expando" id="Expando2">
+                <div class="rightcontent">
+                  <ul>
+                    <li>Laser eyes that shoot through anything</li>
+                    <li><img alt="This is the feature 1 image" src="img/02highlights.jpg" width="300"></li>
+                  </ul>
+                </div>
               </ul>
             </li>
           </ul>
           
 
-
-
-
-
-
-
-         <!-- <ul>
+          <ul>
             <li>
-              <a href="#Expando2">Feature 2</a>
-              <ul class="expando" id="Expando2">
-                <li>Has superhuman strength and mass
-                </li>
-                <li>
-                  <img alt="This is the feature 1 image" src="img/02highlights.jpg" width="300">
-                </li>
+              <a href="#Expando3" class="rectangle">Feature 3</a>
+              <ul class="expando" id="Expando3">
+                <div class="rightcontent">
+                <li>Has superhuman strength and mass</li>
+                <li><img alt="This is the feature 1 image" src="img/03highlights.jpg" width="300"></li>
               </ul>
             </li>
           </ul>
-          <ul>
-            <li>
-              <a href="#Expando3">Feature 3</a>
-              <ul class="expando" id="Expando3">
-                <li>Has superhuman strength and mass
-                </li>
-                <li>
-                  <img alt="This is the feature 1 image" src="img/03highlights.jpg" width="300">
-                </li>
-              </ul>
-            </li>
-          </ul>-->
+      </div>
+
           <div class="callout">
             <h4>
               Quarterly Project Feature:
@@ -80,6 +90,8 @@
         </section><!-- end of highlights section -->
       </main>
     </div><!-- end of 1st div class wrapper -->
+    
+
     <section class="training">
       <h1>
         Up Next:
@@ -193,5 +205,13 @@
         Contact information: <a href="mailto:someone@example.com" id="footerlink">someone@example.com</a>.
       </p>
     </footer>
+
+<script>
+              jQuery(function($){
+              $( '#targetButton' ).click(function(){
+              $('.targetImg').toggleClass('appear')
+              })
+              })
+</script>
   </body>
 </html>

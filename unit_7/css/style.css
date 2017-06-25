@@ -1,6 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+/*unit 7 css*/
+
+
 /*TRouBLe*/
-* { margin:0; padding:0; box-sizing:border-box; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
   background-color: #000;
@@ -34,16 +41,17 @@ body {
   height: auto
 }
 
-.navmain { 
+.navmain {
   padding: 1.2em;
   margin-top: 75px;
-  width: 100%
-  clear: both;
+  width: 100% clear: both;
   text-align: center;
 }
+
 .expando {
   display: none;
 }
+
 .expando:target {
   display: block;
 }
@@ -52,40 +60,38 @@ ul {
   list-style-type: none;
 }
 
-
 a {
   text-decoration: none;
-  color:#fff;
+  color: #fff;
 }
 
-a.button1,a.navmain {
+a.button1, a.navmain {
   /*float: left;*/
   font-size: 75%
 }
 
 a.button1 {
-  border:1px solid #d4d4d4;
-  border-radius:10px;
-  color:#fff;
-  margin-right:10px;
-  padding:1em;
+  border: 1px solid #d4d4d4;
+  border-radius: 10px;
+  color: #fff;
+  margin-right: 10px;
+  padding: 1em;
   width: 150px;
   transition-duration: 0.4s;
-  -webkit-transition-duration: 0.4s; /*safari*/
+  -webkit-transition-duration: 0.4s;
+  /*safari*/
   display: inline-block;
 }
 
 a.button1:hover {
-  background-color: rgba(255,255,255,.75);
+  background-color: rgba(255, 255, 255, .75);
   color: black;
 }
-
 
 #highlights {
   padding: 2em 2em;
   color: #000;
-  background-color: rgba(67,67,67,.9);
- 
+  background-color: rgba(67, 67, 67, .9);
 }
 
 .callout {
@@ -95,32 +101,36 @@ a.button1:hover {
   height: 6em;
   width: 100%;
 }
+
 .centerBox {
-  background-color:#666;
-  position:absolute;
-  top:0;
-  left:0;
-  right:0;
-  bottom:0;
-  z-index:1;
+  background-color: #666;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
   padding: 1em 10em 0;
   text-align: center;
 }
+
 .sideBox, .sideBox2 {
-  background:blue;
+  background: blue;
   width: 3em;
   height: 8em;
-  position:absolute;
+  position: absolute;
   left: -1em;
   top: -1em;
   z-index: -1;
 }
+
 .sideBox2 {
-  position:absolute;
-  right:-1em;
-  top:-1em;
+  position: absolute;
+  right: -1em;
+  top: -1em;
   left: initial;
 }
+
 .training {
   background-color: #fff;
   padding: 4em 0;
@@ -130,7 +140,6 @@ a.button1:hover {
   background-color: #ffe2b8;
   border: 1px black solid;
   padding: 20px;
-
 }
 
 .leadership img {
@@ -144,11 +153,7 @@ a.button1:hover {
   line-height: 1.2em;
   text-align: left;
   max-width: 600px;
-
 }
-
-
-
 
 footer {
   background-color: #ff957e;
@@ -158,7 +163,9 @@ footer {
   width: 100%;
 }
 
+
 /*begin column exercise*/
+
 #two-column {
   /* background-color: #ff0000; */
   /* border: 1px black solid; */
@@ -166,30 +173,55 @@ footer {
 }
 
 #left {
-    background-color: violet;
-    border: 1px black solid;
-    padding: 20px;
-    float: left;
-    width: 50%;
+  background-color: violet;
+  border: 1px black solid;
+  padding: 20px;
+  float: left;
+  width: 50%;
 }
 
 #right {
-    background-color: pink;
-    border: 1px black solid;
-    padding: 20px;
-    float: left;
-    width: 50%;
+  background-color: pink;
+  border: 1px black solid;
+  padding: 20px;
+  float: left;
+  width: 50%;
 }
-.wrapper {
-  max-width:75em;
-  margin:auto;
 
+.wrapper {
+  max-width: 75em;
+  margin: auto;
 }
+
 .clearfix:after {
-    visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0;
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.targetImg {
+  width: 30em;
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0;
+  transition-duration: .5s;
+}
+
+#targetButton {
+  background: purple;
+  float: left;
+  padding: 1em 2em;
+}
+
+#target {
+  position: relative;
+  height: 32em;
+}
+
+.appear {
+  opacity: 1 !important;
 }

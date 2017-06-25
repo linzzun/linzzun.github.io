@@ -68,6 +68,26 @@ h2 a {
   text-align: center;
 }
 
+.leftmenu a {
+
+  width: 20px;
+  height: auto;
+  margin: 25px;
+ 
+}
+
+.rightcontent {
+  float:right;
+}
+
+.red {
+  background: #cd5c5c;
+}
+
+.blue {
+  background: #0000ff;
+}
+
 .expando {
   display: none;
 }
@@ -77,6 +97,26 @@ h2 a {
 ul {
   list-style: none;
 
+}
+
+.rectangle a {
+  text-decoration: none;
+  color:#fff;
+}
+
+a.rectangle {
+  /*float: left;*/
+  font-size: 90%
+}
+
+a.rectangle {
+  border:1px solid #d4d4d4;
+  color:#fff;
+  padding:1em;
+  width: 150px;
+  transition-duration: 0.4s;
+  -webkit-transition-duration: 0.4s; /*safari*/
+  display: inline-block;
 }
 
 ul {
@@ -107,7 +147,7 @@ a.button1 {
 
 a.button1:hover {
   background-color: rgba(255,255,255,.75);
-  color: #00b5e2;
+  color: #000;
 }
 
 #highlights {

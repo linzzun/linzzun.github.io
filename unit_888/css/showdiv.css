@@ -1,0 +1,73 @@
+body {
+background-color: #dddddd;
+
+}
+
+/*hover image a href thing*/
+img, .showhide:hover>div {
+    display: none;
+}
+
+.showhide:hover>img {
+    display: block;
+}
+
+.showhide:hover>a {
+    display: block;
+}
+
+a, .showhide:hover>div {
+    display: none;
+}
+/*end hover thing*/
+
+.rectangle div {
+  text-decoration: none;
+  color:#fff;
+}
+
+div.rectangle {
+  /*float: left;*/
+  font-size: 90%
+}
+
+div.rectangle {
+  border:1px solid #d4d4d4;
+  color:#fff;
+  padding:1em;
+  width: 150px;
+  transition-duration: 0.4s;
+  -webkit-transition-duration: 0.4s; /*safari*/
+  display: inline-block;
+}
+
+div + a {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	font-size: 1.6em;
+	line-height: 1.2em;
+	text-align: left;
+	max-width: 18%;
+	color:  #000;
+	text-decoration: none;
+	margin: 0px 0px 0px 200px;
+}
+
+.showhide {
+	  border: 5px solid black;
+	  width: 50%;
+}
+
+.showhide img {
+	margin: 0px 0px 0px 200px;
+	width: 50%; 
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
