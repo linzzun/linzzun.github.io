@@ -1,0 +1,9 @@
+body {
+	background-color: #FFFFFF;
+}
+h1, p {
+	color: #000000;
+}
+img{
+   max-width:400px;
+}
