@@ -118,7 +118,7 @@ main > h1 {
 xTypography 
 
 -------------------------------- */
-h1, h2 {
+h1, {
   font-family: 'Montserrat', sans-serif;
   color: #19191a;
 }
@@ -141,6 +141,7 @@ h1 {
 }
 
 h2 {
+  font-family: 'Roboto Mono', monospace;
   font-weight: bold;
   text-transform: uppercase;
   margin: 1em 0;
