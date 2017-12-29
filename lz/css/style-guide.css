@@ -118,7 +118,7 @@ main > h1 {
 xTypography 
 
 -------------------------------- */
-h1, {
+h1 {
   font-family: 'Montserrat', sans-serif;
   color: #19191a;
 }
