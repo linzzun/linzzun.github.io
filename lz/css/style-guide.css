@@ -187,7 +187,7 @@ xButtons
   color: #ffffff;
   padding: .6em 2.2em;
   cursor: pointer;
-  background: #5f8ee4;
+  background: #cccccc;
 }
 .btn:focus {
   outline: none;
