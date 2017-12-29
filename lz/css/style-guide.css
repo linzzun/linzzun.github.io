@@ -833,6 +833,15 @@ section:nth-of-type(6) h2::before {
 .cd-colors li:nth-of-type(1) .cd-color-swatch::after {
   background: #000000;
 }
+.cd-colors li:nth-of-type(1) .cd-color-swatch {
+  background: #2b3c96;
+}
+.cd-colors li:nth-of-type(1) .cd-color-swatch::before {
+  background: #000000;
+}
+.cd-colors li:nth-of-type(1) .cd-color-swatch::after {
+  background: #000000;
+}
 .cd-colors li:nth-of-type(2) .cd-color-swatch {
   background: #32a7de;
 }
@@ -869,24 +878,7 @@ section:nth-of-type(6) h2::before {
 .cd-colors li:nth-of-type(5) .cd-color-swatch::after {
   background: white;
 }
-.cd-colors li:nth-of-type(6) .cd-color-swatch {
-  background: #ffffff;
-}
-.cd-colors li:nth-of-type(6) .cd-color-swatch::before {
-  background: white;
-}
-.cd-colors li:nth-of-type(6) .cd-color-swatch::after {
-  background: white;
-}
-.cd-colors li:nth-of-type(7) .cd-color-swatch {
-  background: #000000;
-}
-.cd-colors li:nth-of-type(7) .cd-color-swatch::before {
-  background: black;
-}
-.cd-colors li:nth-of-type(7) .cd-color-swatch::after {
-  background: black;
-}
+
 @media only screen and (min-width: 768px) {
   .cd-colors li {
     width: 19%;
