@@ -388,7 +388,7 @@ html {
 
 body {
   font-size: 1.6rem;
- font-family: 'Roboto Mono', monospace;
+  font-family: 'Roboto Mono', monospace;
 }
 
 a {
@@ -400,7 +400,7 @@ img {
 }
 
 input, textarea, select {
-font-family: 'Roboto Mono', monospace;
+  font-family: 'Roboto Mono', monospace;
   font-size: 1.6rem;
 }
 
@@ -825,49 +825,67 @@ section:nth-of-type(6) h2::before {
   padding: .6em 0;
 }
 .cd-colors li:nth-of-type(1) .cd-color-swatch {
-  background: #5f8ee4;
+  background: #2b3c96;
 }
 .cd-colors li:nth-of-type(1) .cd-color-swatch::before {
-  background: #759de8;
+  background: #000000;
 }
 .cd-colors li:nth-of-type(1) .cd-color-swatch::after {
-  background: #497fe0;
+  background: #000000;
 }
 .cd-colors li:nth-of-type(2) .cd-color-swatch {
-  background: #19191a;
+  background: #32a7de;
 }
 .cd-colors li:nth-of-type(2) .cd-color-swatch::before {
-  background: #262627;
+  background: #000000;
 }
 .cd-colors li:nth-of-type(2) .cd-color-swatch::after {
-  background: #0d0d0d;
+  background: #000000;
 }
 .cd-colors li:nth-of-type(3) .cd-color-swatch {
-  background: #e4655f;
+  background: #ebcf5d;
 }
 .cd-colors li:nth-of-type(3) .cd-color-swatch::before {
-  background: #e87a75;
+  background: #000000;
 }
 .cd-colors li:nth-of-type(3) .cd-color-swatch::after {
-  background: #e05049;
+  background: #000000;
 }
 .cd-colors li:nth-of-type(4) .cd-color-swatch {
-  background: #e6e6e6;
+  background: #e66d3d;
 }
 .cd-colors li:nth-of-type(4) .cd-color-swatch::before {
-  background: #f3f3f3;
+  background: #000000;
 }
 .cd-colors li:nth-of-type(4) .cd-color-swatch::after {
-  background: #d9d9d9;
+  background: #000000;
 }
 .cd-colors li:nth-of-type(5) .cd-color-swatch {
-  background: #ffffff;
+  background: #f0f0c9;
 }
 .cd-colors li:nth-of-type(5) .cd-color-swatch::before {
   background: white;
 }
 .cd-colors li:nth-of-type(5) .cd-color-swatch::after {
-  background: #f2f2f2;
+  background: white;
+}
+.cd-colors li:nth-of-type(6) .cd-color-swatch {
+  background: #ffffff;
+}
+.cd-colors li:nth-of-type(6) .cd-color-swatch::before {
+  background: white;
+}
+.cd-colors li:nth-of-type(6) .cd-color-swatch::after {
+  background: white;
+}
+.cd-colors li:nth-of-type(7) .cd-color-swatch {
+  background: #000000;
+}
+.cd-colors li:nth-of-type(7) .cd-color-swatch::before {
+  background: black;
+}
+.cd-colors li:nth-of-type(7) .cd-color-swatch::after {
+  background: black;
 }
 @media only screen and (min-width: 768px) {
   .cd-colors li {
