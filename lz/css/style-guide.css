@@ -142,12 +142,12 @@ h1 {
 
 h2 {
   font-family: 'Roboto Mono', monospace;
-  margin: 1em 0;
+  margin: .5em 0;
 }
 @media only screen and (min-width: 768px) {
   h2 {
     font-size: 1.8rem;
-    margin: 1em 0 1.4em;
+    margin: .75em 0 .25em;
   }
 }
 
@@ -171,6 +171,19 @@ p a {
     font-size: 1.6rem;
     line-height: 1.6;
   }
+}
+.maincopy {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.4;
+  color: #58585b;
+}
+.maincopymargin {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.4;
+  color: #58585b;
+  margin: 0em 0em 1.5em 0em;
 }
 
 /* -------------------------------- 
@@ -671,7 +684,7 @@ main {
   padding: 50px 0;
 }
 main > h1 {
-  text-align: center;
+  text-align: left;
   margin: 3em 0;
 }
 @media only screen and (min-width: 1024px) {
@@ -929,7 +942,8 @@ section:nth-of-type(6) h2::before {
   background-position: center center;
   background-repeat: no-repeat;
   margin: 1em;
-}
+  color:white;
+} /*
 .cd-icons .cd-icon-1 {
   background-image: url("../assets/icons/icon-1.svg");
 }
@@ -953,7 +967,7 @@ section:nth-of-type(6) h2::before {
 }
 .cd-icons .cd-icon-8 {
   background-image: url("../assets/icons/icon-8.svg");
-}
+} */
 
 /* xForm section - basic style */
 .cd-form input[type=text],
