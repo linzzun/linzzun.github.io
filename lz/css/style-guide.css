@@ -227,20 +227,20 @@ xButtons
 }
 .btn.btn-success {
   color: #ffffff;
-  background: #82d485;
+  background: #a6cb45;
 }
 .no-touch .btn.btn-success:hover {
-  background: #f1f0c8;
+  background: #71b238;
 }
 .btn.btn-alert {
   background: #ff6e36;
 }
 .no-touch .btn.btn-alert:hover {
-  background: #86CBEA;
+  background: #fd5e53;
 }
 .btn.btn-outline {
-  color: #ffffff;
-  background: #86cbea;
+  color: #02a9e1;
+  background: #f1f0c8;
 
 }
 .no-touch .btn.btn-outline:hover {
