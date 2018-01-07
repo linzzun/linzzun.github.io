@@ -217,13 +217,13 @@ xButtons
   color: #ffffff;
   padding: .6em 2.2em;
   cursor: pointer;
-  background: #02a9e1;
+  background: #86CBEA;
 }
 .btn:focus {
   outline: none;
 }
 .no-touch .btn:hover {
-  background: #86CBEA;
+  background: #02a9e1;
 }
 .btn.btn-success {
   color: #ffffff;
