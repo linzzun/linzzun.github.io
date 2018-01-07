@@ -1,3 +1,13 @@
+@font-face {
+font-family: 'Miso';
+src: url('fonts/Miso.ttf.eot');
+src: url('fonts/Miso.ttf.eot?#iefix') format('embedded-opentype'),
+url('fonts/Miso.ttf.woff') format('woff'),
+url('fonts/Miso.ttf.svg#Miso') format('svg'); 
+font-weight: normal;
+font-style: normal;
+}
+
 /* -------------------------------- 
 
 xBackground 
@@ -141,12 +151,18 @@ h1 {
 }
 
 h2 {
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Miso', sans-serif;
   margin: .5em 0;
+}
+h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0 0 .4em;
 }
 @media only screen and (min-width: 768px) {
   h2 {
-    font-size: 1.8rem;
+    font-size: 3rem;
     margin: .75em 0 .25em;
   }
 }
@@ -174,13 +190,13 @@ p a {
 }
 .maincopy {
   font-family: 'Roboto', sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   line-height: 1.4;
   color: #58585b;
 }
 .maincopymargin {
   font-family: 'Roboto', sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   line-height: 1.4;
   color: #58585b;
   margin: 0em 0em 1.5em 0em;
@@ -193,41 +209,43 @@ xButtons
 -------------------------------- */
 .btn {
   border: none;
-  box-shadow: none;
-  border-radius: .25em;
-  font-size: 1.4rem;
+  box-shadow: 0 5px 0 0 #f5d153;
+  border-radius: 3rem;
+  font-size: 2rem;
   font-family: "Arvo", serif;
+  font-weight: 700;
   color: #ffffff;
   padding: .6em 2.2em;
   cursor: pointer;
-  background: #cccccc;
+  background: #02a9e1;
 }
 .btn:focus {
   outline: none;
 }
 .no-touch .btn:hover {
-  background: #759de8;
+  background: #f1f0c8;
 }
 .btn.btn-success {
-  background: #6fce72;
+  color: #02a9e1;
+  background: #f1f0c8;
 }
 .no-touch .btn.btn-success:hover {
   background: #82d485;
 }
 .btn.btn-alert {
-  background: #e4655f;
+  background: #ff6e36;
 }
 .no-touch .btn.btn-alert:hover {
-  background: #e87a75;
+  background: #86CBEA;
 }
 .btn.btn-outline {
-  color: #5f8ee4;
-  background: transparent;
-  box-shadow: inset 0 0 0 1px #5f8ee4;
+  color: #ffffff;
+  background: #86cbea;
+
 }
 .no-touch .btn.btn-outline:hover {
   color: #ffffff;
-  background: #5f8ee4;
+  background: #86cbea;
 }
 @media only screen and (min-width: 768px) {
   .btn {
